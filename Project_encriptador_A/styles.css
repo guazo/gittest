@@ -4,13 +4,14 @@ body{
 }
 
 img{
-    margin: 15px;
+    margin: 0% 40px;
+    border-radius: 20px;
 }
 button{
     border-radius: 16px;
     width: 328px;
     height: 67px;
-    margin: 10px;
+    margin: 15px;
     
 }
 div{
@@ -22,9 +23,14 @@ div{
     font-weight: bold;
     margin: 10px;
 }
-.blue-botton:hover{
+.blue-button:hover{
     background-color: #2146C7; /* azul */
   color: white;
+  font-style: normal;
+}
+.other-button:hover{
+    background-color: #21d156;
+    color: white;
 }
 
 .textarea-input{
